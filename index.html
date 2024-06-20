@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de moneda</title>
+</head>
+<body>
+    <h1 class="titulo">Conversor de moneda</h1>
+    <div class="container">
+        <form id="formulario">
+        <div class="cambioMoneda">
+            <div class="acomodador">
+                <label>Importe de</label>
+                <input type="text" id="importe" placeholder="Ingrese el monto">
+            </div>
+            <div class="acomodador">
+                <label>de</label>
+                <select id="de">
+                <option value="" class="oculto">Moneda seleccionada</option>
+                <option value="USD">USD</option>
+                <option value="ARS">ARS</option>
+                <option value="EUR">EUR</option>
+                <option value="MXN">MXN</option>
+                <option value="BRL">BRL</option>
+            </select>
+            </div>
+            <div class="acomodador">
+                <button class="buttonImg"><img src="imagenes/derecho.png" alt=""></button>
+            </div>
+            <div class="acomodador">
+            <label>a</label>
+            <select id="a">
+                    <option value="" class="oculto">Moneda seleccionada</option>
+                    <option value="USD">USD</option>
+                    <option value="ARS">ARS</option>
+                    <option value="EUR">EUR</option>
+                    <option value="MXN">MXN</option>
+                    <option value="BRL">BRL</option>
+                </select>
+            </div>
+            <div class="acomodador">
+                <button type="submit" id="botonConvertir" class="botonConvertir">Convertir</button>
+                </div>
+        </div>
+        <div class="Resultado">
+            <!--Debe aparece el resultado conversor--> 
+            <p>1,00 Peso argentino = </p>
+            <h2>0,0011040759 Dólares estadounidenses</h2>
+            <p>1 USD = 905,735 ARS</p>  
+            </div>
+    </form>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

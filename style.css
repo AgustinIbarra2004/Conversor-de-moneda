@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.oculto{
+    display: none;
+}
+.titulo{
+    text-align: left;
+   margin: 0 390px;
+}
+.container{
+    border: 2px solid;
+    margin: 30px;
+    width: 1200px;
+}
+.cambioMoneda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 10px;
+}
+.cambioMoneda label{ 
+    margin: 15px 5px;
+}
+.cambioMoneda input{
+    height: 27px;
+    width: 250px;
+}
+.cambioMoneda select{
+     height: 30px;
+     width: 250px;
+}
+.buttonImg{
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: 48px;
+}
+.botonConvertir button{
+    width: 100px;
+}
+.cambioMoneda img{
+    width: 15px;
+    height: 15px;
+    padding: 6px;
+}
+.acomodador{
+    display: flex;
+    flex-direction: column;
+}
+.Resultado{
+    margin: 20px 50px;
+}
+.botonConvertir{
+    height: 30px;
+    width: 100px;
+    margin-top: 50px;
+}
